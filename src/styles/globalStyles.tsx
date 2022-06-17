@@ -115,17 +115,6 @@ export const GlobalStyles = styled.createGlobalStyle`
     }
   }
 
-  .content {
-    hr {
-      width: 100%;
-      height: 1px;
-      background-color: var(--color-divider);
-      border: none;
-      margin-top: 2rem;
-      padding-bottom: 1rem !important;
-    }
-  }
-
   .about {
     a {
       font-size: 20px;
