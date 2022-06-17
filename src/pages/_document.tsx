@@ -81,6 +81,7 @@ export default class MyDocument extends Document {
             href='static/favicons/favicon-16x16.png'
           />
           <link rel='manifest' href='static/favicons/site.webmanifest'></link>
+          <script async src='https://cdn.splitbee.io/sb.js'></script>
         </Head>
         <body>
           <script dangerouslySetInnerHTML={{ __html: setInitialColorTheme }} />
