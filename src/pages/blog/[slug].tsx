@@ -20,7 +20,7 @@ export const Post: React.FC<Props> = ({ post }) => {
 
   return (
     <>
-      <DocumentHead pageTitle={post.title} description={post.summary} />
+      <DocumentHead pageTitle={post.title} description={post.summary} imageUrl={post.image} />
       <PageTitle>{post.title}</PageTitle>
       <BlogDetails>
         <TextHighlight>{formattedDate}</TextHighlight>

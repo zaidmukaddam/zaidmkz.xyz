@@ -69,6 +69,7 @@ export const GlobalStyles = styled.createGlobalStyle`
   code[class*="language-"],
   pre[class*="language-"] {
     color: var(--text-color-grey);
+    font-size: 14px;
   }
 
   .rehype-code-title {
@@ -112,6 +113,14 @@ export const GlobalStyles = styled.createGlobalStyle`
 
     li {
       margin-bottom: 0.5rem;
+    }
+
+    hr {
+      width: 100%;
+      height: 1px;
+      background-color: var(--color-divider);
+      border: none;
+      margin-top: 0.5rem;
     }
   }
 

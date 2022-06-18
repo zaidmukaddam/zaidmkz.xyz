@@ -16,7 +16,7 @@ const About: React.FC<Props> = ({ post }) => {
 
   return (
     <>
-      <DocumentHead pageTitle='About me' />
+      <DocumentHead pageTitle='About me' imageUrl="/og.png"/>
       <ContentCenter>
         <PageTitle>
           About <TextHighlight>me?</TextHighlight>
