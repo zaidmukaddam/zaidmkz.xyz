@@ -22,7 +22,7 @@ const Blogs: React.FC<Props> = ({ blogs }) => {
 
   return (
     <>
-      <DocumentHead pageTitle='Blog' />
+      <DocumentHead pageTitle='Blog' imageUrl="https://ogsupa.com/api/v1?title=Blogs+%7C+Zaid+Mukaddam&description=A+place+where+I+put+my+thoughts+and+knowledge+together.&background_color=%23768b9d&font_style=font-mono&left_meta=%40zaidmukaddam&right_meta=zaidmkz.xyz" />
       <ContentCenter>
         <PageTitle>
           Not a <TextHighlight>Blog!</TextHighlight>

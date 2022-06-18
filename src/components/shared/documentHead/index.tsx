@@ -4,7 +4,6 @@ import React from "react";
 import {
   DEFAULT_SITE_DESCRIPTION,
   SITE_URL,
-  BANNER_URL
 } from "../../../common/constants";
 
 interface Props {
@@ -18,7 +17,7 @@ export const DocumentHead: React.FC<Props> = ({
   pageTitle,
   description = DEFAULT_SITE_DESCRIPTION,
   noIndex,
-  imageUrl = BANNER_URL
+  imageUrl
 }) => {
   const _pageTitle = `${pageTitle} | Zaid Mukaddam`;
   return (

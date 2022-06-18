@@ -15,7 +15,7 @@ const Home: React.FC<Props> = ({ post }) => {
 
   return (
     <>
-      <DocumentHead pageTitle='Base' imageUrl="/og.png"/>
+      <DocumentHead pageTitle='Base' imageUrl="https://ogsupa.com/api/v1?title=Zaid+Mukaddam&description=Full+Stack+Developer&background_color=%23445599&font_style=font-sans&left_meta=%40zaidmukaddam&right_meta=zaidmkz.xyz"/>
       <IntroBlock />
       <InterestsBlock className='content'>
         <Component
