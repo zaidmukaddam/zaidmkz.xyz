@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import styled from "styled-components";
+import { DocumentHead } from "../components/shared/documentHead";
 import { ContentCenter } from "../components/shared/layoutUtils";
 import { TextHighlight } from "../components/shared/typography";
 
@@ -9,6 +10,7 @@ type Props = {};
 const NotFoundPage = (props: Props) => {
   return (
     <>
+      <DocumentHead pageTitle="404 - Not Found" imageUrl="https://ogsupa.com/api/v1?title=404+-+Not+Found&description=The+Generic+404+Not+Found+page&background_color=%239d1c2f&font_style=font-sans&left_meta=%40zaidmukaddam&right_meta=zaidmkz.xyz"/>
       <ContentCenter flexCol alignCenter>
         <FourOFour>
           4<TextHighlight>0</TextHighlight>4

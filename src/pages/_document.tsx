@@ -81,7 +81,6 @@ export default class MyDocument extends Document {
             href='static/favicons/favicon-16x16.png'
           />
           <link rel='manifest' href='static/favicons/site.webmanifest'></link>
-          {/* seo og:image */}
           <script async src='https://cdn.splitbee.io/sb.js'></script>
         </Head>
         <body>
