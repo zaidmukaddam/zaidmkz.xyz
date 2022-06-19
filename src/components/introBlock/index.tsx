@@ -23,7 +23,7 @@ const IntroBlock: React.FC = () => {
       </DetailsWrapper>
       <AvatarWrapper>
         <Image
-          src={"/static/images/avatar.webp"}
+          src={"/static/images/avatar-full.png"}
           height={256 / 2.2}
           width={256 / 2.2}
           alt='Avatar Zaid Mukaddam'
