@@ -4,8 +4,9 @@ export const Card = styled.a`
   cursor: pointer;
   margin-bottom: 1rem;
   border-radius: 10px;
-  padding: 1.5rem 0;
+  padding: 1.5rem 0.5rem;
   text-decoration: none;
+  border: 5px solid var(--code-block-green);
 `;
 
 export const CardHeading = styled.div`

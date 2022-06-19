@@ -14,7 +14,7 @@ Also give repo a ⭐ if you like it!
 - [React-icons](https://react-icons.github.io/react-icons/)
 - [Framer-motion](https://www.framer.com/motion/)
 - [SWR](https://swr.vercel.app/)
-- [Plausible.io](https://plausible.io/)
+- [Splitbee Analytics](https://splitbee.io/)
 
 ## Steps to run
 
