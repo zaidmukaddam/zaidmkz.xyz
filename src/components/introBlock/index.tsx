@@ -24,8 +24,8 @@ const IntroBlock: React.FC = () => {
       <AvatarWrapper>
         <Image
           src={"/static/images/neon.png"}
-          height={256 / 2.2}
-          width={256 / 2.2}
+          height={174}
+          width={174}
           alt='Avatar Zaid Mukaddam'
           priority
         />
