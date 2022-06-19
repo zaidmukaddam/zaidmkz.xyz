@@ -111,11 +111,12 @@ const FourOFour = styled.h1`
 `;
 
 const GoHomeButton = styled.button`
-  background-color: rgba(62,64,79,0.75);
+  background-color: var(--color-primary);
   border: none;
   color: white;
+  margin-top: 1em;
   margin-bottom: 1.5rem;
-  padding: 1rem 1.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
   font-weight: 700;
   font-size: 20px;
