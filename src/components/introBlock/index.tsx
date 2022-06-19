@@ -23,9 +23,9 @@ const IntroBlock: React.FC = () => {
       </DetailsWrapper>
       <AvatarWrapper>
         <Image
-          src={"/static/images/neon.png"}
-          height={174}
-          width={174}
+          src={"/static/images/beach.png"}
+          height={275 / 2}
+          width={275 / 2}
           alt='Avatar Zaid Mukaddam'
           priority
         />
