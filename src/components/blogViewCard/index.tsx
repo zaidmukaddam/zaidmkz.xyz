@@ -11,25 +11,28 @@ import {
   ReadMore
 } from "./styles";
 import { DATE_FORMAT } from "../../common/constants";
+import Image from "next/image";
 
 interface Props {
   title: string;
   href: string;
   date: string;
   summary: string;
+  image: string | null;
 }
 
-const BlogViewCard: React.FC<Props> = ({ title, href, date, summary }) => {
+const BlogViewCard: React.FC<Props> = ({ title, href, date, summary, image }) => {
   const formattedDate = format(new Date(date), DATE_FORMAT);
 
   return (
     <Link href={`/blog/${href}/`} passHref>
       <Card>
-        <CardHeading>{title}</CardHeading>
+        {image!=null ? <Image src={image} alt={title} width="640px" height="330px" style={{borderRadius: "5px"}} /> : <></>}
+        {/* <CardHeading>{title}</CardHeading>
         <DateWrapper>
           <i>{formattedDate}</i>
         </DateWrapper>
-        <CardSummary>{summary}</CardSummary>
+        <CardSummary>{summary}</CardSummary> */}
         <ReadMore>
           Read more
           <ArrowWrapper>

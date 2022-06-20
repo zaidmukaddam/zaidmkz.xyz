@@ -40,12 +40,12 @@ export default class MyDocument extends Document {
     return (
       <Html lang='en'>
         <Head>
-          <link rel='icon' href='static/favicons/favicon.ico' />
-          <link rel='shortcut icon' href='static/favicons/favicon.ico' />
+          <link rel='icon' href='https://zaidmkz.xyz/static/favicons/favicon.ico' />
+          <link rel='shortcut icon' href='https://zaidmkz.xyz/static/favicons/favicon.ico' />
           <link
             rel='apple-touch-icon'
             sizes='180x180'
-            href='static/favicons/apple-touch-icon.png'
+            href='https://zaidmkz.xyz/static/favicons/apple-touch-icon.png'
           />
           <meta
             name='apple-mobile-web-app-title'
@@ -72,15 +72,15 @@ export default class MyDocument extends Document {
             rel='icon'
             type='image/png'
             sizes='32x32'
-            href='static/favicons/favicon-32x32.png'
+            href='https://zaidmkz.xyz/static/favicons/favicon-32x32.png'
           />
           <link
             rel='icon'
             type='image/png'
             sizes='16x16'
-            href='static/favicons/favicon-16x16.png'
+            href='https://zaidmkz.xyz/static/favicons/favicon-16x16.png'
           />
-          <link rel='manifest' href='static/favicons/site.webmanifest'></link>
+          <link rel='manifest' href='https://zaidmkz.xyz/static/favicons/site.webmanifest'></link>
           <script async src='https://cdn.splitbee.io/sb.js'></script>
         </Head>
         <body>

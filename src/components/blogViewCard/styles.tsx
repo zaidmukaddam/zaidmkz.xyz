@@ -4,9 +4,13 @@ export const Card = styled.a`
   cursor: pointer;
   margin-bottom: 1rem;
   border-radius: 10px;
-  padding: 1.5rem 0.5rem;
+  padding: 1rem 0.5rem;
   text-decoration: none;
   border: 5px solid var(--code-block-green);
+
+  @media (max-width: 368px) {
+    padding: 0;
+  }
 `;
 
 export const CardHeading = styled.div`
@@ -32,11 +36,19 @@ export const DateWrapper = styled.div`
 `;
 
 export const ReadMore = styled.div`
-  font-size: 14px;
+  font-size: 16px;
   color: var(--color-primary);
-  font-weight: 600;
+  padding-top: 0.5rem;
+  padding-left: 0.2rem;
+  margin-bottom: 5px;
+  padding-bottom: 0;
+  font-weight: bold;
   display: flex;
   align-items: center;
+
+  @media (max-width: 368px) {
+    padding: 0.5rem;
+  }
 `;
 
 export const ArrowWrapper = styled.span`

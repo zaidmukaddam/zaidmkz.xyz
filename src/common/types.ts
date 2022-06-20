@@ -3,6 +3,7 @@ export enum DataTheme {
   DARK = "dark"
 }
 export interface BlogView {
+  image: string | null;
   title: string;
   slug: string;
   publishedAt: string;

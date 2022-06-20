@@ -10,7 +10,7 @@ import styled from "styled-components";
 
 export async function getStaticProps() {
   const blogs = allBlogs.map((blog) =>
-    pick(blog, ["title", "slug", "publishedAt", "summary", "published"])
+    pick(blog, ["title", "slug", "publishedAt", "summary", "published", "image"])
   );
   return { props: { blogs } };
 }
@@ -42,6 +42,7 @@ const Blogs: React.FC<Props> = ({ blogs }) => {
               key={idx}
               date={b.publishedAt}
               summary={b.summary}
+              image={b.image}
             />
           ))
           .sort(

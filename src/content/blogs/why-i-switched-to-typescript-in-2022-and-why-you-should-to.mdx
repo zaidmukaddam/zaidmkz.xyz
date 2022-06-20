@@ -1,0 +1,87 @@
+---
+published: true
+title: "Why I switched to TypeScript in 2022 and why you should to?"
+publishedAt: "2022-06-19"
+summary: "In this article, I will talk about why I switched to TypeScript in 2022 and why you should to."
+image: "https://ogsupa.com/api/v1?title=Why+I+switched+to+TypeScript%3F&description=In+this+article%2C+I+will+talk+about+why+I+switched+to+TypeScript+in+2022+and+why+you+should+to.&background_color=%2319374d&font_style=font-sans&left_meta=19th+June+%E2%80%A2+6min&right_meta=zaidmkz.xyz"
+---
+
+I continuously look to improve my development practices, and recently I’ve begun to use TypeScript which led to a huge improvement in my development workflow.
+
+Since than I have worked on dozens projects with TypeScript and wrote thousands of lines of TS code, so in this article I will explain my findings having used TypeScript for last couple of months.
+
+## What is TypeScript?
+
+<Image src="/static/images/why-i-switched-to-typescript-in-2022-and-why-you-should-to/meme.jpg" alt="More TypeScript" width="512px" height="340px" />
+
+If you’re reading this, you probably already know. But a quick summary never hurts:
+
+> TypeScript is programming language developed by Microsoft. It is a strict superset of JavaScript that adds static typing and class-based, object-oriented programming to the language. You use the Typescript compiler to convert Typescript back to plain JavaScript, so the browser will never know it wasn’t JavaScript to begin with.
+
+But You’ve probably already heard the word "TypeScript" before, it certainly wouldn’t be a surprise in 2022. 😉 And why shouldn't it? TypeScript has grown significantly over the past years, now it comfortably sits at the top of languages compiled to JS.
+
+This trend is clearly visible in the results of a [2021 Stackoverflow survey](https://insights.stackoverflow.com/survey/2021#overview): 80% of developers are satisfied with TypeScript or interested in adding this JavaScript flavor to their skill stack.
+
+So read on, and I'll try to convince you to use Typescript in your next project 👇
+
+## Why should you choose TypeScript ?
+
+TypeScript is more than a language, it's also a tool. It is a powerful compiler that you run on top of your code to compile your TS code to JavaScript. And because of that you can use all the latest features of new JavaScript in the development environment and then generate regular and supported JS code that browsers can understand.
+
+As a JavaScript developer, you know that one of JS’s greatest assets is its enormous ecosystem. There isn’t a use case I can think of that doesn’t have at least 99 🤪 competing packages on NPM .
+
+For last 9 years TypeScript has become so popular, you’ll easily can find typings for most popular libraries. They’re either bundled (added by both maintainers and community members), or available through the community driven [Definitely Typed](https://github.com/DefinitelyTyped/DefinitelyTyped) repo. In other words - interacting with external packages is just about as easy as with regular JavaScript.
+
+And in addition, TS also comes with a bunch of other features that make our life a lot easier, such as Types, Decorators, Generics and more.
+
+## Find your errors earlier
+
+<Image src="/static/images/why-i-switched-to-typescript-in-2022-and-why-you-should-to/error.jpg" alt="error" width="600px" height="380px" />
+
+In contrast to JavaScript, TS code is little more readable, reliable and easier to refactor.
+
+Types invalidate most of the silly errors that keep you awake at night. With TS as soon as you make itsy-bitsy type error, your IDE will scream at you with the compiler error message or IDE real-time feedback. Of course, the TypeScript compiler won't resolve every of your bugs, and you still need to write a bunch of console.log() yourself, but its help could be invaluable sometimes.
+
+## Code Hinting
+
+<Image src="/static/images/why-i-switched-to-typescript-in-2022-and-why-you-should-to/hint.png" alt="hint" width="840px" height="200px" />
+
+My favorite part of TypeScript is its ability to present hints while I code. When combined with code editors like VS Code or Webstorm, the IDE will know all about your code. Contextual code suggestions helped me reduce errors and increased my typing speed.
+
+When you have linter enabled in the editor, it can also detect syntactic and contextual errors. This makes error correction easier and faster.
+
+Also if you have to refactor for whatever reason, TypeScript can make it easier and less painful because when you change a name of variable in one file, compiler will suggest and change variable names in other files of your project.
+
+## Make code management easier
+
+<Image src="/static/images/why-i-switched-to-typescript-in-2022-and-why-you-should-to/manage.jpg" alt="manage" width="550px" height="380px" />
+
+When you provide types to your code it can serve as a form of code documentation. Having even brief documentation at hand can be beneficial to your developers, at the very least because they don’t need to spend their valuable time doing it themselves. This is often referred to as “self-documenting code”—one developer writes something, and others know what it does and how just by looking at it.
+
+JavaScript is weakly and dynamically typed, so when you, for example initialize variable with the value `let str = ''` and later in code, member of your team may do something irrational by mistake, for example assign boolean variable `str = true`, and it will be valid JS code.
+
+Assigning a boolean value to a variable that was previously a string happens not so often 😁 and comes from a mistake.
+When using TypeScript, we can't change the type of the variable, so if we make the `let str = ''` variable, it will be string type and we won't be able to change its type by mistake.
+
+If we want to let a variable to be more than one type, we always do it explicitly using union type, for example `string | number`.
+Therefore, TypeScript makes our code more predictable and explicit.
+
+Annotating types also can work other way around, since you may not always wish to look at how something works in order to use it. Most of the time, you just want to see the definition of how we can use it.
+
+## Easy, progressive migration from JavaScript
+
+<Image src="/static/images/why-i-switched-to-typescript-in-2022-and-why-you-should-to/feature.jpg" alt="feature" width="560px" height="480px" />
+
+Since TypeScript works on top of JavaScript, you can use all JavaScript libraries and code that you want in your TypeScript project.
+
+Valid JavaScript code is at the same time valid TypeScript code, so you can migrate your codebase step by step.
+With those options, you can migrate from JS to TS step by step – file by file, simply changing the extension from `.js(x)` to `.ts(x)` and adding types in the files. Also popular JavaScript libraries have types – Definitely Typed is a repository with types for a lot of different JavaScript libraries that you can use to make your interactions with them more type-safe.
+
+## Conclusion
+
+Thank you for reading this far.
+From my experience using TypeScript led me to cleaner more reliable self documented code that easier maintain and support, and it helped me to catch a lot of errors. This was a great tool for creating modern and scalable web applications and Node.js services. Of course TypeScript got a bit of learning curve to it, but the benefits pay off immensely in the long run.
+
+TypeScript is pragmatic and welcoming to beginners, so there is no need to be afraid. I hope this post will be useful in your TypeScript journey.
+
+I hope you enjoy and happy coding! 🥑💖
