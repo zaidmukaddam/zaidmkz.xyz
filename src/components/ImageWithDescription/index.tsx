@@ -22,13 +22,18 @@ export default function ImageWithDescription({
                     lineHeight: "1rem",
                     fontStyle: "italic",
                     fontWeight: "600",
-                    color: "var(--text-color-grey)",
+                    color: "var(--color-block-quote)",
                 }}
             >
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     aria-hidden="true"
                     className="inline mb-0.5"
+                    style={{
+                        // inline
+                        display: "inline",
+                        marginBottom: "0.5px",
+                    }}
                     width="14"
                     height="14"
                     fill="currentColor"
